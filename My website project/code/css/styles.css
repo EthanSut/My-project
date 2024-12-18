@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: #414141; 
+    width: 100%; 
+    align-items: center; 
+    text-align: center;
+}
+.navbar { 
+    background-color: #353535;
+    position: sticky;
+    top: 0;
+    height: auto;   
+    margin-top: 0; 
+    padding-top: 0; 
+  } 
+.navbar img {   
+    float: left;
+    max-width: 85px; 
+    max-height: 85px; 
+    margin-top: 0; 
+    padding-top: 0;
+} 
+.navbar ul { 
+    display: flex; 
+    font-size: 20px; 
+    text-align: center;  
+    list-style: none; 
+    justify-content: center; 
+    padding: 0px;  
+    margin-top: 0; 
+    padding-top: 0;
+} 
+.navbar li { 
+    margin: 15px; 
+} 
+.navbar a { 
+    text-decoration: none; 
+    color: white; 
+    padding: 10px; 
+    background-color:#353535;
+    border-radius: 5px; 
+    transition: background-color; 
+    display: block
+} 
+.navbar a:hover { 
+    background-color: rgb(105, 81, 0); 
+} 
+footer, footer li {   
+    font-family: Arial, sans-serif;  
+    color: white;
+    background-color: #353535; 
+    text-align: center; 
+    list-style: none;  
+    justify-content: center;
+    padding:15px; 
+    width: 98%;   
+    margin-right: 2%;  
+} 
+footer h1 { 
+    font-family: Arial, sans-serif;  
+    color:  orange;
+    text-align: center; 
+    font-size: 30px; 
+    margin: 0 auto; 
+    margin-left: 1%;
+} 
+.computing_course p { 
+    font-family: Arial, sans-serif;  
+    color: white; 
+    flex-grow: 1;
+}
+.computing_course { 
+    width: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.computingimgs { 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #333;
+    width: 60%; 
+    height: auto; 
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    text-align: center; 
+    object-fit: contain;
+    
+}   
+.computingimgs img { 
+    max-width: 100%; 
+    height: auto;  
+    max-width: 700px; 
+    max-height: 400px;
+    margin: 10px;
+} 
+.computing_course p { 
+    font-family: Arial, sans-serif;  
+    color: white; 
+    flex-grow: 1;
+    text-align: center;
+    margin: 15px;
+}
+.computing_course a {
+    text-decoration: underline;
+    color: #e6ab3c;
+    margin-left: 10px;
+    font-size: 24px;
+}
+h1 { 
+    font-family: Arial, sans-serif;  
+    color:  orange;
+    text-align: center; 
+    font-size: 50px; 
+    text-decoration: underline;  
+    align-items: center;
+} 
+h2 { 
+    font-family: Arial, sans-serif;  
+    color:  orange;
+    text-align: center; 
+    font-size: 50px; 
+}
+header p { 
+    font-family: Arial, sans-serif;  
+    color:  orange;
+    text-align: center; 
+    font-size: 30px;
+} 
+.aboutus {  
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   text-align: center; 
+} 
+.aboutus p1, .aboutus ul, .contact ul { 
+    color: white;  
+    font-size: 22px;
+    padding: 10px; 
+    width: 70%;
+} 
+.aboutus ul, .contact ul { 
+    list-style-type: none;  
+    padding: 10px; 
+} 
+.aboutus li, .contact li { 
+    margin-bottom: 10px;
+} 
+.contact li { 
+    text-align: center; 
+    width: 140%;
+}
+.logoimg { 
+  max-width: 100px; 
+  max-height: 100px; 
+  margin-left: 48%;
+}  
+.logocontactimg { 
+    max-width: 400px; 
+    max-height: 400px; 
+    margin-left: 40%;
+}
+img{ 
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px;
+}
+.learning h1 { 
+    color: orange; 
+    font-size: 35px;
+}
+.learning p1 { 
+    color: white; 
+    font-size: 20px;  
+    margin: auto;
+    width: 50%;
+}  
+.learning { 
+    display: flex; 
+    flex-direction: column; 
+} 
+.learning h2 { 
+    color: orange; 
+    font-size: 27px;
+} 
+.infostudent { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+} 
+.infostudent p1{ 
+    color: white; 
+    font-size: 22px; 
+    padding: 10px; 
+    width: 40%;
+} 
+.infostudent img { 
+    max-width: 800px; 
+    max-height: 800px
+}
+h3 { 
+    color: white;
+} 
+.hidden { 
+    display: none;
+}  
+.visible { 
+    display: block;
+    width: 70%; 
+    margin: auto; 
+}
+.button { 
+    cursor: pointer;;
+}
